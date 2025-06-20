@@ -1,0 +1,32 @@
+{
+	"compilerOptions": {
+		"allowImportingTsExtensions": true,
+		"noEmit": true,
+		"target": "es2022",
+		"useDefineForClassFields": true,
+		"allowJs": true,
+		"skipLibCheck": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"module": "ES2022",
+		"moduleResolution": "bundler",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noUnusedParameters": true,
+		"noUnusedLocals": true,
+		"esModuleInterop": true,
+		"noEmitOnError": false,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"jsx": "react-jsx",
+		"useUnknownInCatchVariables": false,
+		"paths": {
+			"components/*": ["./src/components/*"],
+			"libs/*": ["./src/libs/*"]
+		}
+	}
+}
